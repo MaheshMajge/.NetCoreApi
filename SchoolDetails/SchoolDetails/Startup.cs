@@ -24,7 +24,7 @@ namespace SchoolDetails
         {
             services.AddControllers();
             services.AddScoped<ICommonRepository, CommonRepository>();
-            services.AddDbContext<SchoolDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DbConnectionString")));
+            services.AddDbContext<SchoolDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DbConnectionString")),ServiceLifetime.Transient);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
