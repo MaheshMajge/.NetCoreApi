@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SchoolDetails.Models;
+using SchoolDetails.Repository;
 
 namespace SchoolDetails.Controllers
 {
@@ -11,24 +12,22 @@ namespace SchoolDetails.Controllers
     [ApiController]
     public class SchoolDetailsController : ControllerBase
     {
-        private readonly SchoolDbContext _context;
+        private readonly ICommonRepository commonRepository;
 
-        public SchoolDetailsController(SchoolDbContext context)
+        public SchoolDetailsController(ICommonRepository commonRepository)
         {
-            _context = context;
+            this.commonRepository = commonRepository;
         }
-
         [HttpGet]
-        public  IEnumerable<SchoolDetail> GetSchoolDbSet()
+        public IEnumerable<SchoolDetail> GetSchoolDbSet()
         {
-            return  _context.SchoolDbSet.ToList();
+            return commonRepository.GetSchoolDbSet();
         }
-
 
         [HttpGet("{id}")]
         public async Task<ActionResult<SchoolDetail>> GetSchoolDetail(int id)
         {
-            var schoolDetail = await _context.SchoolDbSet.FindAsync(id);
+            var schoolDetail = await Task.FromResult(commonRepository.GetSchoolDetail(id));
 
             if (schoolDetail == null)
             {
@@ -37,7 +36,6 @@ namespace SchoolDetails.Controllers
             return schoolDetail;
         }
 
-        
         [HttpPut("{id}")]
         public async Task<IActionResult> PutSchoolDetail(int id, SchoolDetail schoolDetail)
         {
@@ -45,16 +43,13 @@ namespace SchoolDetails.Controllers
             {
                 return BadRequest();
             }
-
-            _context.Entry(schoolDetail).State = EntityState.Modified;
-
             try
             {
-                await _context.SaveChangesAsync();
+                await Task.FromResult(commonRepository.PutSchoolDetail(id, schoolDetail));
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!SchoolDetailExists(id))
+                if (!commonRepository.SchoolDetailExists(id))
                 {
                     return NotFound();
                 }
@@ -63,7 +58,6 @@ namespace SchoolDetails.Controllers
                     throw;
                 }
             }
-
             return NoContent();
         }
 
@@ -71,9 +65,8 @@ namespace SchoolDetails.Controllers
         [HttpPost]
         public async Task<ActionResult<SchoolDetail>> PostSchoolDetail(SchoolDetail schoolDetail)
         {
-            _context.SchoolDbSet.Add(schoolDetail);
-            await _context.SaveChangesAsync();
 
+            await Task.FromResult(commonRepository.PostSchoolDetail(schoolDetail));
             return CreatedAtAction("GetSchoolDetail", new { id = schoolDetail.ID }, schoolDetail);
         }
 
@@ -81,21 +74,12 @@ namespace SchoolDetails.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<SchoolDetail>> DeleteSchoolDetail(int id)
         {
-            var schoolDetail = await _context.SchoolDbSet.FindAsync(id);
-            if (schoolDetail == null)
+            var schoolDetail = await Task.FromResult(commonRepository.DeleteSchoolDetail(id));
+            if (!schoolDetail)
             {
                 return NotFound();
             }
-
-            _context.SchoolDbSet.Remove(schoolDetail);
-            await _context.SaveChangesAsync();
-
-            return schoolDetail;
-        }
-
-        private bool SchoolDetailExists(int id)
-        {
-            return _context.SchoolDbSet.Any(e => e.ID == id);
+            return Ok();
         }
     }
 }

@@ -4,14 +4,85 @@
     "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj": {}
   },
   "projects": {
-    "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj": {
+    "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj",
-        "projectName": "SchoolDetails",
-        "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj",
+        "projectUniqueName": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj",
+        "projectName": "SchoolDetails.Data",
+        "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj",
         "packagesPath": "C:\\Users\\mrmaj\\.nuget\\packages\\",
-        "outputPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\obj\\",
+        "outputPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mrmaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
+                "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj",
+        "projectName": "SchoolDetails.Models",
+        "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj",
+        "packagesPath": "C:\\Users\\mrmaj\\.nuget\\packages\\",
+        "outputPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,20 +113,145 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj",
+        "projectName": "SchoolDetails.Repository",
+        "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj",
+        "packagesPath": "C:\\Users\\mrmaj\\.nuget\\packages\\",
+        "outputPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mrmaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj": {
+                "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj"
+              },
+              "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
+                "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj",
+        "projectName": "SchoolDetails",
+        "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj",
+        "packagesPath": "C:\\Users\\mrmaj\\.nuget\\packages\\",
+        "outputPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mrmaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj": {
+                "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.11, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.11, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.11, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
