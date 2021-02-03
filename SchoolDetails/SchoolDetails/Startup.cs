@@ -4,7 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SchoolDetails.Data;
 using SchoolDetails.Models;
+using SchoolDetails.Repository;
 
 namespace SchoolDetails
 {
@@ -21,6 +23,7 @@ namespace SchoolDetails
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<ICommonRepository, CommonRepository>();
             services.AddDbContext<SchoolDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DbConnectionString")));
         }
 

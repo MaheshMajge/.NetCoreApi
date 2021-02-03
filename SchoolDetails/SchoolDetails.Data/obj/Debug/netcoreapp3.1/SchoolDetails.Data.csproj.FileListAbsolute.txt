@@ -1,0 +1,12 @@
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\bin\Debug\netcoreapp3.1\SchoolDetails.Data.deps.json
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\bin\Debug\netcoreapp3.1\SchoolDetails.Data.dll
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\bin\Debug\netcoreapp3.1\SchoolDetails.Data.pdb
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\bin\Debug\netcoreapp3.1\SchoolDetails.Models.dll
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\bin\Debug\netcoreapp3.1\SchoolDetails.Models.pdb
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.csprojAssemblyReference.cache
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.AssemblyInfoInputs.cache
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.AssemblyInfo.cs
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.csproj.CoreCompileInputs.cache
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.csproj.CopyComplete
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.dll
+F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.pdb
