@@ -1,9 +1,0 @@
-F:\NetCoreApi\NetCoreApi\NetCoreApi.Models\bin\Debug\netcoreapp3.1\NetCoreApi.Models.deps.json
-F:\NetCoreApi\NetCoreApi\NetCoreApi.Models\bin\Debug\netcoreapp3.1\NetCoreApi.Models.dll
-F:\NetCoreApi\NetCoreApi\NetCoreApi.Models\bin\Debug\netcoreapp3.1\NetCoreApi.Models.pdb
-F:\NetCoreApi\NetCoreApi\NetCoreApi.Models\obj\Debug\netcoreapp3.1\NetCoreApi.Models.csprojAssemblyReference.cache
-F:\NetCoreApi\NetCoreApi\NetCoreApi.Models\obj\Debug\netcoreapp3.1\NetCoreApi.Models.AssemblyInfoInputs.cache
-F:\NetCoreApi\NetCoreApi\NetCoreApi.Models\obj\Debug\netcoreapp3.1\NetCoreApi.Models.AssemblyInfo.cs
-F:\NetCoreApi\NetCoreApi\NetCoreApi.Models\obj\Debug\netcoreapp3.1\NetCoreApi.Models.csproj.CoreCompileInputs.cache
-F:\NetCoreApi\NetCoreApi\NetCoreApi.Models\obj\Debug\netcoreapp3.1\NetCoreApi.Models.dll
-F:\NetCoreApi\NetCoreApi\NetCoreApi.Models\obj\Debug\netcoreapp3.1\NetCoreApi.Models.pdb
