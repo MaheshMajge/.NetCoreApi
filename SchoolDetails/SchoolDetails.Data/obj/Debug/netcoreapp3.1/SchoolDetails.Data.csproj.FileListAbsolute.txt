@@ -10,3 +10,15 @@ F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\School
 F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.csproj.CopyComplete
 F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.dll
 F:\SchoolDetails\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.pdb
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\bin\Debug\netcoreapp3.1\SchoolDetails.Data.deps.json
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\bin\Debug\netcoreapp3.1\SchoolDetails.Data.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\bin\Debug\netcoreapp3.1\SchoolDetails.Data.pdb
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\bin\Debug\netcoreapp3.1\SchoolDetails.Models.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\bin\Debug\netcoreapp3.1\SchoolDetails.Models.pdb
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.csprojAssemblyReference.cache
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.AssemblyInfoInputs.cache
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.AssemblyInfo.cs
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.csproj.CoreCompileInputs.cache
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.csproj.CopyComplete
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Data\obj\Debug\netcoreapp3.1\SchoolDetails.Data.pdb

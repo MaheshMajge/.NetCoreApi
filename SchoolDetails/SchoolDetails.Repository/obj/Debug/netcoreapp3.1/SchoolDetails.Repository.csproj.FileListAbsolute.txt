@@ -12,3 +12,17 @@ F:\SchoolDetails\SchoolDetails\SchoolDetails.Repository\obj\Debug\netcoreapp3.1\
 F:\SchoolDetails\SchoolDetails\SchoolDetails.Repository\obj\Debug\netcoreapp3.1\SchoolDetails.Repository.csproj.CopyComplete
 F:\SchoolDetails\SchoolDetails\SchoolDetails.Repository\obj\Debug\netcoreapp3.1\SchoolDetails.Repository.dll
 F:\SchoolDetails\SchoolDetails\SchoolDetails.Repository\obj\Debug\netcoreapp3.1\SchoolDetails.Repository.pdb
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\bin\Debug\netcoreapp3.1\SchoolDetails.Repository.deps.json
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\bin\Debug\netcoreapp3.1\SchoolDetails.Repository.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\bin\Debug\netcoreapp3.1\SchoolDetails.Repository.pdb
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\bin\Debug\netcoreapp3.1\SchoolDetails.Data.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\bin\Debug\netcoreapp3.1\SchoolDetails.Models.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\bin\Debug\netcoreapp3.1\SchoolDetails.Data.pdb
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\bin\Debug\netcoreapp3.1\SchoolDetails.Models.pdb
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\obj\Debug\netcoreapp3.1\SchoolDetails.Repository.csprojAssemblyReference.cache
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\obj\Debug\netcoreapp3.1\SchoolDetails.Repository.AssemblyInfoInputs.cache
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\obj\Debug\netcoreapp3.1\SchoolDetails.Repository.AssemblyInfo.cs
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\obj\Debug\netcoreapp3.1\SchoolDetails.Repository.csproj.CoreCompileInputs.cache
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\obj\Debug\netcoreapp3.1\SchoolDetails.Repository.csproj.CopyComplete
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\obj\Debug\netcoreapp3.1\SchoolDetails.Repository.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Repository\obj\Debug\netcoreapp3.1\SchoolDetails.Repository.pdb

@@ -7,3 +7,12 @@ F:\SchoolDetails\SchoolDetails\SchoolDetails.Models\obj\Debug\netcoreapp3.1\Scho
 F:\SchoolDetails\SchoolDetails\SchoolDetails.Models\obj\Debug\netcoreapp3.1\SchoolDetails.Models.csproj.CoreCompileInputs.cache
 F:\SchoolDetails\SchoolDetails\SchoolDetails.Models\obj\Debug\netcoreapp3.1\SchoolDetails.Models.dll
 F:\SchoolDetails\SchoolDetails\SchoolDetails.Models\obj\Debug\netcoreapp3.1\SchoolDetails.Models.pdb
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Models\bin\Debug\netcoreapp3.1\SchoolDetails.Models.deps.json
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Models\bin\Debug\netcoreapp3.1\SchoolDetails.Models.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Models\bin\Debug\netcoreapp3.1\SchoolDetails.Models.pdb
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Models\obj\Debug\netcoreapp3.1\SchoolDetails.Models.csprojAssemblyReference.cache
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Models\obj\Debug\netcoreapp3.1\SchoolDetails.Models.AssemblyInfoInputs.cache
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Models\obj\Debug\netcoreapp3.1\SchoolDetails.Models.AssemblyInfo.cs
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Models\obj\Debug\netcoreapp3.1\SchoolDetails.Models.csproj.CoreCompileInputs.cache
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Models\obj\Debug\netcoreapp3.1\SchoolDetails.Models.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails.Models\obj\Debug\netcoreapp3.1\SchoolDetails.Models.pdb
