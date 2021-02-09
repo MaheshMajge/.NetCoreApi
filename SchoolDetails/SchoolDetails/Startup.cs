@@ -6,7 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using SchoolDetails.Data;
-using SchoolDetails.Models;
 using SchoolDetails.Repository;
 
 namespace SchoolDetails
@@ -26,7 +25,7 @@ namespace SchoolDetails
             services.AddControllers();
             services.AddSwaggerGen(c => 
             { 
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "NetCoreApi", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "SchoolDetails", Version = "v1" });
             });
             services.AddScoped<ICommonRepository, CommonRepository>();
             services.AddDbContext<SchoolDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DbConnectionString")),ServiceLifetime.Transient);
@@ -39,7 +38,7 @@ namespace SchoolDetails
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1.swagger.json", "NetCoreApi v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("v1/swagger.json", "SchoolDetails v1"));
             }
 
             app.UseHttpsRedirection();

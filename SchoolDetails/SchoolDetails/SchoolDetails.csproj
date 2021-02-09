@@ -17,6 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SchoolDetails.Data\SchoolDetails.Data.csproj" />
+    <ProjectReference Include="..\SchoolDetails.Models\SchoolDetails.Models.csproj" />
     <ProjectReference Include="..\SchoolDetails.Repository\SchoolDetails.Repository.csproj" />
   </ItemGroup>
 

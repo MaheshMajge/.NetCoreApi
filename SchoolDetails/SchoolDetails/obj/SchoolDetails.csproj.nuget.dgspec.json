@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj": {}
+    "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj": {}
   },
   "projects": {
-    "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj": {
+    "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj",
+        "projectUniqueName": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj",
         "projectName": "SchoolDetails.Data",
-        "projectPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj",
-        "packagesPath": "C:\\Users\\P50032980\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Data\\obj\\",
+        "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj",
+        "packagesPath": "C:\\Users\\mrmaj\\.nuget\\packages\\",
+        "outputPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\P50032980\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mrmaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +31,8 @@
           "net5.0": {
             "targetAlias": "netcoreapp5.0",
             "projectReferences": {
-              "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
-                "projectPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj"
+              "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
+                "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj"
               }
             }
           }
@@ -72,17 +75,20 @@
         }
       }
     },
-    "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
+    "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj",
+        "projectUniqueName": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj",
         "projectName": "SchoolDetails.Models",
-        "projectPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj",
-        "packagesPath": "C:\\Users\\P50032980\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Models\\obj\\",
+        "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj",
+        "packagesPath": "C:\\Users\\mrmaj\\.nuget\\packages\\",
+        "outputPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\P50032980\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mrmaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -126,17 +132,20 @@
         }
       }
     },
-    "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj": {
+    "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj",
+        "projectUniqueName": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj",
         "projectName": "SchoolDetails.Repository",
-        "projectPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj",
-        "packagesPath": "C:\\Users\\P50032980\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Repository\\obj\\",
+        "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj",
+        "packagesPath": "C:\\Users\\mrmaj\\.nuget\\packages\\",
+        "outputPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\P50032980\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mrmaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -150,11 +159,11 @@
           "net5.0": {
             "targetAlias": "netcoreapp5.0",
             "projectReferences": {
-              "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj": {
-                "projectPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj"
+              "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj": {
+                "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj"
               },
-              "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
-                "projectPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj"
+              "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
+                "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj"
               }
             }
           }
@@ -187,17 +196,20 @@
         }
       }
     },
-    "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj": {
+    "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj",
+        "projectUniqueName": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj",
         "projectName": "SchoolDetails",
-        "projectPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj",
-        "packagesPath": "C:\\Users\\P50032980\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails\\obj\\",
+        "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\SchoolDetails.csproj",
+        "packagesPath": "C:\\Users\\mrmaj\\.nuget\\packages\\",
+        "outputPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\P50032980\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mrmaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -211,8 +223,14 @@
           "net5.0": {
             "targetAlias": "netcoreapp5.0",
             "projectReferences": {
-              "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj": {
-                "projectPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj"
+              "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj": {
+                "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj"
+              },
+              "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
+                "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj"
+              },
+              "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj": {
+                "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Repository\\SchoolDetails.Repository.csproj"
               }
             }
           }

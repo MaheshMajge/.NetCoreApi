@@ -5679,19 +5679,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\P50032980\\.nuget\\packages\\": {}
+    "C:\\Users\\mrmaj\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj",
+      "projectUniqueName": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj",
       "projectName": "SchoolDetails.Data",
-      "projectPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj",
-      "packagesPath": "C:\\Users\\P50032980\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Data\\obj\\",
+      "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\SchoolDetails.Data.csproj",
+      "packagesPath": "C:\\Users\\mrmaj\\.nuget\\packages\\",
+      "outputPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\P50032980\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mrmaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5705,8 +5709,8 @@
         "net5.0": {
           "targetAlias": "netcoreapp5.0",
           "projectReferences": {
-            "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
-              "projectPath": "C:\\Users\\P50032980\\MaheshMajge\\School\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj"
+            "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj": {
+              "projectPath": "F:\\SchoolDetails\\SchoolDetails\\SchoolDetails.Models\\SchoolDetails.Models.csproj"
             }
           }
         }

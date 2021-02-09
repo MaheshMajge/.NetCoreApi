@@ -339,5 +339,13 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 
-.SchoolDetails/bin
-.SchoolDetails/obj
+SchoolDetails/bin
+SchoolDetails/obj
+SchoolDetails.Data/bin
+SchoolDetails.Data/obj
+SchoolDetails.Models/bin
+SchoolDetails.Models/obj
+SchoolDetails.Repository/bin
+SchoolDetails.Repository/obj
+SchoolDetails.XUnitTest/bin
+SchoolDetails.XUnitTest/obj
