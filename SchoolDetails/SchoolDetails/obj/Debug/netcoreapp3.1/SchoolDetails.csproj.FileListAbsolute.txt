@@ -326,3 +326,8 @@ C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails\obj\Debug\netc
 C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails\obj\Debug\netcoreapp3.1\SchoolDetails.dll
 C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails\obj\Debug\netcoreapp3.1\SchoolDetails.pdb
 C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails\obj\Debug\netcoreapp3.1\SchoolDetails.genruntimeconfig.cache
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\P50032980\MaheshMajge\School\SchoolDetails\SchoolDetails\obj\Debug\netcoreapp3.1\SchoolDetails.MvcApplicationPartsAssemblyInfo.cs
